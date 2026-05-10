@@ -1,0 +1,19 @@
+.footer {
+  background: var(--bg);
+  border-top: 1px solid var(--border);
+  padding: 2rem 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: .5rem;
+  position: relative;
+  z-index: 1;
+}
+.footer p { font-size: .8rem; color: var(--muted); }
+.footer .heart { color: var(--accent1); }
+.footer-role { color: var(--muted); opacity: .6; }
+
+@media (max-width: 480px) {
+  .footer { flex-direction: column; text-align: center; }
+}
